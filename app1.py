@@ -1,5 +1,7 @@
 # --- START OF FILE app.py ---
-
+#this file is a modified version of app.py which ignores everything but emotion detection part 
+#it has emotion_detection hybrid vs tranformer vd rule based metric analysis with confusion matrix 
+#no need to run this file, this file will be imported from emotion_detection.py for analysis just run that file only
 import streamlit as st
 import os
 import numpy as np
